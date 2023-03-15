@@ -1,0 +1,131 @@
+.principalCorpo{
+    position: relative;
+
+    max-width: 100vw;
+    min-height: 100vh;
+}
+
+.principalCabeca{
+    width: 100%;
+    height: 174px;
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 41px;
+    
+    background: linear-gradient(90.23deg, #05EDE3 0.02%, #645FFB 99.63%);
+}
+
+.principalMenuEsquerdo{
+    width: 60%;
+}
+
+.principalMenuDireito{
+    position: relative;
+
+    width: 120px;
+    height: 56px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.principalUsuario{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.principalButtonVoltar{
+    position: absolute;
+
+    display: flexbox;
+    width: 22px;
+    height: 27.5px;
+    left: 130px;
+    top: 15px;
+    border-radius: 0px;
+
+    cursor: pointer;
+}
+
+.principalConteudo{
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    
+    left: 0px;
+    top: 116px;
+
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: #ffffff;
+    border-radius: 60px 60px 0px 0px;
+}
+
+.principalCabecalho{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 55px;
+    padding-left: 105px;
+}
+
+.principalImagem{
+    width: 80px;
+    height: 30px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer; 
+}
+
+.testoPrincipal{
+    width: 33px;
+    height: 14px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    background-color: #fafafa;
+}
+
+.principalResumoTesto{
+    display: flex;
+    justify-content: space-around;
+    
+    margin-right: 30px;
+}
+
+.principalTesto{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}

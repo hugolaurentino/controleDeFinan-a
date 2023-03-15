@@ -1,0 +1,40 @@
+.cabecalho{
+    width: 964px;
+    height: 58px;
+}
+
+.testoCabecalho{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    cursor: pointer;
+}
+
+.cabecalhoTopo{
+    width: 90%;
+    height: 58px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 26px;
+
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.listaTamanhoEspaco{
+    width: 70px;
+}
+
+
+

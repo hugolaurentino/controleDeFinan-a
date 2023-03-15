@@ -1,0 +1,138 @@
+.corpoEditarRegistro{
+    position: absolute;
+    width: 100%;
+    height: 1024px;
+    left: 0px;
+    top: -115px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgba(61, 61, 61, 0.48);
+}
+
+.corpoEditarRegistroEntradaSaida{
+    width: 489px;
+    height: 56px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.corpoEditarRegistroEntrada{
+    width: 245px;
+    height: 60px;
+
+    border: none;
+    background-color: #3A9FF1;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.corpoEditarRegistroEntradaDesativado{
+    width: 245px;
+    height: 60px;
+
+    border: none;
+    background-color: #B9B9B9;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.corpoEditarRegistroSaida{
+    width: 245px;
+    height: 60px;
+
+    border: none;
+
+    background-color: #FF576B;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.corpoEditarRegistroSaidaDesativado{
+    width: 245px;
+    height: 60px;
+
+    border: none;
+
+    background-color: #B9B9B9;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.corpoEditarRegistroForme{
+    width: 611px;
+    height: 770px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 56px 64px;
+
+    background-color: #FFFFFF;
+    border-radius: 20px;
+}
+
+.corpoEditarRegistroFechar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 43px;
+    
+    color: #000000;
+    cursor: pointer;
+}
+
+.corpoEditarRegistroLabel{
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #484848;
+}
+
+.corpoEditarRegistroInput{
+    width: 485px;
+    height: 63.49px;
+    left: 479px;
+    top: 314.51px;
+    
+    margin-top: 9px;
+    background-color: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 5px;
+}
+
+.corpoEditarRegistroButton{
+    height: 46px;
+    width: 236px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #7978D9;
+    border-radius: 5px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    cursor: pointer;
+}

@@ -1,0 +1,116 @@
+.categoriaCorpo{
+    width: 90%;
+    height: 205px;
+    
+    margin-top: 25px;
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.categoriaTesto{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    
+    color: #B9B9B9;
+    margin-left: 32px;
+    
+}
+
+.categoriaItens{
+    width: 100%;
+    height: 160px;
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.categoriaConteudo{
+    width: 80px;
+    height: 20px;
+    
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    margin: 20px 12px 9px 0px;
+   
+    background-color: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.categoriaConteudoSelecionada{
+    width: 80px;
+    height: 20px;
+    
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    margin: 20px 12px 9px 0px;
+   
+    background: #7978D9;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    /* background-color: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; */
+    cursor: pointer;
+
+}
+
+.categoriaConteudoTesto{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.categoriaLimparAplicar{
+    width: 214px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 32px;
+}
+
+.categoriaButtonLimpar{
+    width: 98px;
+    height: 30px;
+    
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 13px;
+}
+
+.categoriaButtonFiltro{
+    width: 98px;
+    height: 30px;
+    
+    background: #7978D9;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 13px;
+
+}
